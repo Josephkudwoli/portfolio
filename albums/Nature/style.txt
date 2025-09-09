@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f2f1c;  /* deep green */
+  color: #d4f4dd;       /* light mint */
+  margin: 0;
+}
+
+header {
+  background: #14532d;  /* forest green */
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #d4f4dd;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
